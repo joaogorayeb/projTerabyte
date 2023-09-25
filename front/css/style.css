@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.prim-linha{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.redes-sociais{
+    margin: 0 5em;
+}
+.icon{
+    color: white;
+    padding: 0 10px;
+}
+.minha-conta a{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.segunda-linha{
+    background-color: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.icon a{
+    font-size: 30px;
+    color: white;
+}
+.logo{
+    width: 10%;
+}
+.pesquisa{
+    position: absolute;
+    display: inline-block;
+    border-radius: 5px;
+}
+.pesquisa i{
+    color: black;
+}
+.icone-button{
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.pesquisa input{
+    width: 250px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
